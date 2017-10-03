@@ -1,0 +1,19 @@
+.sapin {
+  color: red;
+  background: blue;
+}
+.sapin-italic {
+  font-style: italic;
+}
+
+.first {
+  color: red;
+}
+
+.last {
+  color: green;
+}
+
+.even {
+  background: grey;
+}

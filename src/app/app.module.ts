@@ -14,9 +14,10 @@ import { NgIfFormationComponent } from './ng-if-formation/ng-if-formation.compon
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
-  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent, NgSwitchComponent, NgStyleComponent ],
+  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent, NgSwitchComponent, NgStyleComponent, NgClassComponent ],
   imports: [  BrowserModule ],
   providers: [],
   bootstrap: [AppComponent]

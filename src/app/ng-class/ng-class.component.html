@@ -1,0 +1,18 @@
+<p>
+  -------------------------------------------> ng-class
+</p>
+
+<p [class.sapin]="true" [class.sapin-italic]="true"> Formation angular </p>
+
+<p [ngClass]="{'sapin': true, 'sapin-italic': true}"> Formation angular </p>
+
+<ul>
+  <li *ngFor="let formation of formations; index as i; first as f; last as l; even as e">
+
+    <!--p  [style.color]="getColorByElement(f, l)" [style.background]="getBgColorByElement(e)"-->
+    <p [ngClass]="{ 'first': f, 'last': l, 'even': e}">
+      {{i}} - {{ formation.nom }}
+    </p>
+
+  </li>
+</ul>

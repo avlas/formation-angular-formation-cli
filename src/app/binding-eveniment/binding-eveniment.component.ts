@@ -14,8 +14,8 @@ export class BindingEvenimentComponent implements OnInit {
   ngOnInit() {
   }
 
-  handleClick(event):void {
-    console.log('handleClick :', event);
+  handleClick():void {
+    console.log('Button a ete clicke');
     this.isHidden = !this.isHidden;
   }
 

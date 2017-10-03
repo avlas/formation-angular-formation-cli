@@ -6,9 +6,10 @@ import { FormationComponent } from './formation/formation.component';
 import { InterpolateComponent } from './interpolate/interpolate.component';
 import { InterpolateOptionalComponent } from './interpolate-optional/interpolate-optional.component';
 import { BindingProprieteComponent } from './binding-propriete/binding-propriete.component';
+import { InterpolateParamOptionalComponent } from './interpolate-param-optional/interpolate-param-optional.component';
 
 @NgModule({
-  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateOptionalComponent, BindingProprieteComponent ],
+  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent ],
   imports: [  BrowserModule ],
   providers: [],
   bootstrap: [AppComponent]

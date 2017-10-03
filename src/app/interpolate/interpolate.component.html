@@ -1,23 +1,21 @@
-<p>
-  Interpolate works!
-</p>
-
-<p>
-  {{nom}}
+<p [textContent]="nom">
 </p>
 
 <!--est équivalent -->
-<p [textContent]="nom"></p>
 
 <p>
-  {{prenom}}
+    Name : {{nom}}
 </p>
 
 <p>
-  {{getFullname()}}
+    Prenom : {{prenom}}
 </p>
 
 <p>
-  Object: {{formation.nom}} - {{formation.description}}
+    Fullname: {{getFullname()}}
+</p>
+
+<p>
+    Object: {{formation.nom}} - {{formation.description}}
 </p>
 

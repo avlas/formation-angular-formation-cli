@@ -19,6 +19,6 @@ export class InterpolateComponent implements OnInit {
   }
 
   getFullname(): string {
-    return `Function: ${this.nom} => ${this.prenom} `;
+    return ` => getFullname : ${this.nom} => ${this.prenom} `;
   }
 }

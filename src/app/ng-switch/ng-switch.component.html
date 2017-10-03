@@ -1,0 +1,17 @@
+<p>
+  -------------------->  ng-switch
+</p>
+
+<ul>
+  <li *ngFor="let formation of formations; index as i">
+    <p>
+        {{i}} - {{ formation.nom }}
+    </p>
+  </li>
+</ul>
+
+<div [ngSwitch]="formations.length">
+  <p *ngSwitchCase="0"> Aucune formation disponibles </p>
+  <p *ngSwitchCase="1"> Une formation disponible : {{formations.length}}</p>
+  <p *ngSwitchDefault> Formations disponibles : {{formations.length}}</p>
+</div>

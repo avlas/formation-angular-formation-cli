@@ -12,9 +12,10 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
 import { NgIfFormationComponent } from './ng-if-formation/ng-if-formation.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 
 @NgModule({
-  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent ],
+  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent, NgSwitchComponent ],
   imports: [  BrowserModule ],
   providers: [],
   bootstrap: [AppComponent]

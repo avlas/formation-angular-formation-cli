@@ -20,4 +20,8 @@ export class PlaygroundComponent implements OnInit {
     ];
   }
 
+  handleFormationSelected(formation): void {
+    alert(formation.toString());
+    console.log(' Formation selectione : ', formation);
+  }
 }

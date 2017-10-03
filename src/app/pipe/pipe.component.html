@@ -1,0 +1,30 @@
+<p>
+  -------------------------------------------> PIPE
+</p>
+
+<ul>
+  <li *ngFor="let formation of formations">
+      JSON : {{ formation | json }}
+
+      <br>
+      SLICE : {{ formation.nom | slice:0:2 }}
+
+      <br>
+      UPPERCASE : {{ formation.nom | uppercase }}
+
+      <br>
+      LOWERCASE : {{ formation.nom | lowercase }}
+
+      <br>
+      TITLECASE : {{ formation.nom | titlecase }}
+
+      <br>
+      NUMBER : {{ formation.prix | number | currency:'EUR' }}
+
+      <br>
+      DATE DEBUT: {{ formation.dateDebut | date:'dd/MM/yyyy' }}
+
+      <br>
+      DATE FIN: {{ formation.dateFin | date:'dd/MM/yyyy' }}
+  </li>
+</ul>

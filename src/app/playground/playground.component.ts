@@ -14,14 +14,14 @@ export class PlaygroundComponent implements OnInit {
 
   ngOnInit() {
     this.formations = [
-      new Formation('Module Angular'),
-      new Formation('Module JavaScript'),
-      new Formation('Module TypeScript'),
+        new Formation('Module Angular'),
+        new Formation('Module JavaScript'),
+        new Formation('Module TypeScript'),
     ];
   }
 
   handleFormationSelected(formation): void {
-    alert(formation.toString());
-    console.log(' Formation selectione : ', formation);
+      alert(formation.toString());
+      console.log(' Formation selectione : ', formation.toString());
   }
 }

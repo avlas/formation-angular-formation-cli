@@ -15,7 +15,7 @@ export class FormationItemOutputComponent implements OnInit {
   formationSelected: EventEmitter<Formation> = new EventEmitter<Formation>();
 
   selectFormation() {
-    this.formationSelected.emit(this.formation);
+      this.formationSelected.emit(this.formation);
   }
 
   constructor() { }

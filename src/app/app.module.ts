@@ -4,9 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormationComponent } from './formation/formation.component';
 import { InterpolateComponent } from './interpolate/interpolate.component';
-import { InterpolateOptionalComponent } from './interpolate-optional/interpolate-optional.component';
-import { BindingProprieteComponent } from './binding-propriete/binding-propriete.component';
 import { InterpolateParamOptionalComponent } from './interpolate-param-optional/interpolate-param-optional.component';
+import { BindingProprieteComponent } from './binding-propriete/binding-propriete.component';
 
 @NgModule({
   declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent ],

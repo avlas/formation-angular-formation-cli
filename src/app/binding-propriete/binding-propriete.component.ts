@@ -14,11 +14,11 @@ export class BindingProprieteComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    setInterval(
-      () => {
-        this.isHidden = !this.isHidden;
-        this.color = (this.color === 'green') ? 'red' : 'green';
-      }, 2000);
+      setInterval(
+        () => {
+          this.isHidden = !this.isHidden;
+          this.color = (this.color === 'green') ? 'red' : 'green';
+        }, 2000);
   }
 
 }

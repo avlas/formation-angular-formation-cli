@@ -14,5 +14,8 @@ export class InterpolateOptionalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    setTimeout(() => {
+      this.formationJS = new Formation('Module formationJS');
+    }, 3000);
   }
 }

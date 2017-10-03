@@ -1,6 +1,6 @@
 export class Formation {
     constructor(public nom: string,
-                public description: string){}
+                public description?: string){}
 
     toString () {
       return `${this.nom} | ${this.description}`;

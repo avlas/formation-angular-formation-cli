@@ -1,0 +1,15 @@
+<p>
+  --------------------> ngStyle
+</p>
+
+<ul>
+  <li *ngFor="let formation of formations; index as i; first as f; even as e; last as l">
+
+    <!--p  [style.color]="getColorByElement(f, l)" [style.background]="getBgColorByElement(e)"-->
+    <p [ngStyle]="{color: getColorByElement(f, l), background: getBgColorByElement(e)}">
+      {{i}} - {{ formation.nom }}
+    </p>
+
+  </li>
+</ul>
+

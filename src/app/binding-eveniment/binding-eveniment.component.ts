@@ -15,8 +15,15 @@ export class BindingEvenimentComponent implements OnInit {
   }
 
   handleClick(event):void {
-      console.log('Boutton a ete clique : ', event);
+    console.log('handleClick :', event);
+    this.isHidden = !this.isHidden;
+  }
 
-      this.isHidden = !this.isHidden;
+  survol(event):void {
+    console.log('survol :', event);
+  }
+
+  dehors(event):void {
+    console.log('dehors :', event);
   }
 }

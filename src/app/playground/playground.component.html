@@ -5,7 +5,7 @@
 <ul>
   <li *ngFor="let formation of formations; index as i; first as f; even as e; last as l">
     <p [ngClass]="{ 'first': f, 'last': l, 'even': e}">
-        <app-formation-item [formation]="formation"></app-formation-item>
+        <app-formation-item-input [formation]="formation"></app-formation-item-input>
     </p>
   </li>
 </ul>

@@ -19,9 +19,11 @@ import { PipeComponent } from './pipe/pipe.component';
 import { PlaygroundComponent } from './playground/playground.component';
 import { FormationItemInputComponent } from './formation-item-input/formation-item-input.component';
 import { FormationItemOutputComponent } from './formation-item-output/formation-item-output.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { LifecycleOnchangeComponent } from './lifecycle-onchange/lifecycle-onchange.component';
 
 @NgModule({
-  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent, NgSwitchComponent, NgStyleComponent, NgClassComponent, PipeComponent, PlaygroundComponent, FormationItemInputComponent, FormationItemOutputComponent ],
+  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent, NgForComponent, NgSwitchComponent, NgStyleComponent, NgClassComponent, PipeComponent, PlaygroundComponent, FormationItemInputComponent, FormationItemOutputComponent, LifecycleComponent, LifecycleOnchangeComponent ],
   imports: [  BrowserModule ],
   providers: [],
   bootstrap: [AppComponent]

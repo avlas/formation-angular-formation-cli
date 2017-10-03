@@ -1,0 +1,18 @@
+<p>
+  --------------------------------> ng-if / else
+</p>
+
+<div *ngIf="isDisplay; else title">
+    <p> Formation Angular </p>
+</div>
+
+<ng-template #title>
+     <p> Nom de la formation </p>
+</ng-template>
+
+------> [ ng-if ]
+
+<ng-template [ngIf]="isDisplay">
+    <p> Formation Angular </p>
+</ng-template>
+

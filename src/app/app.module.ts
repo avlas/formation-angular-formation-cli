@@ -8,9 +8,12 @@ import { InterpolateParamOptionalComponent } from './interpolate-param-optional/
 import { BindingProprieteComponent } from './binding-propriete/binding-propriete.component';
 import { BindingEvenimentComponent } from './binding-eveniment/binding-eveniment.component';
 import { VariableLocaleComponent } from './variable-locale/variable-locale.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
+import { NgIfFormationComponent } from './ng-if-formation/ng-if-formation.component';
 
 @NgModule({
-  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent ],
+  declarations: [ AppComponent, FormationComponent, InterpolateComponent, InterpolateParamOptionalComponent, BindingProprieteComponent, BindingEvenimentComponent, VariableLocaleComponent, NgIfComponent, NgIfElseComponent, NgIfFormationComponent ],
   imports: [  BrowserModule ],
   providers: [],
   bootstrap: [AppComponent]
